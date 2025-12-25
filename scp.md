@@ -39,3 +39,16 @@ Transferred file using scp (FTP not used)
 Authenticated using banner's password
 Logged into destination server
 Confirmed file exists in /home/app
+
+# 🎯 Interview Tips
+scp uses SSH → encrypted & secure
+Syntax:
+scp <source> <user>@<host>:<destination>
+SCP is commonly used when:
+FTP is disabled
+Secure transfers are required
+Quick, one-time file copies are needed
+For directories:
+scp -r <dir> user@host:/path
+
+✔ Frequently asked in Linux Admin & DevOps interviews
